@@ -46,7 +46,7 @@ const projects = [
         tags: ["JavaScript", "Angular", "TypeScript", "SCSS"],
     },
     {
-        title: "Movies App",
+        title: "Movies App (Vue JS)",
         imageUrl: "/assets/screenshot/nuxtMoviesApp.png",
         project_url: "https://sultao-nu-movies.vercel.app/",
         description:

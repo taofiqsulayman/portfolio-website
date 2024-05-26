@@ -9,9 +9,11 @@ function Projects() {
 
   const techs = [
     "All",
-    "React JS",
-    "Next JS",
+    "JavaScript",
     "TypeScript",
+    "React JS",
+    "React Native",
+    "Next JS",
     "Vue JS",
     "Nuxt JS",
   ];

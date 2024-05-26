@@ -1,5 +1,4 @@
 import React from "react";
-
 import { NavBar, DomHead, Footer } from "..";
 
 function Layout({ children }) {

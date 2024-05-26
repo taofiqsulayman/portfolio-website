@@ -1,12 +1,12 @@
 const projects = [
-    // {
-    //     title: "Portfolio website",
-    //     imageUrl: "/assets/screenshot/portfolio.png",
-    //     project_url: "https://aboladeoluwaseun-portfolio.netlify.app/",
-    //     description:
-    //         "My portfolio website that decribes who I am and What I do",
-    //     tags: ["React", "Next.js", "Tailwind"],
-    // },
+    {
+        title: "Portfolio website",
+        imageUrl: "/assets/screenshot/portfolio.png",
+        project_url: "https://sultao-portfolio-website.vercel.app/",
+        description:
+            "A portfolio website showcasing my projects, skills, and contact information.",
+        tags: ["React JS", "Next JS", "JavaScript", "Tailwind", "JavaScript"],
+    },
     {
         title: "OAU PG Student Association",
         imageUrl: "/assets/screenshot/pgsaWeb.png",
@@ -20,7 +20,7 @@ const projects = [
             "StoryBlok CMS",
             "Shadcn UI",
             "Aceternity UI",
-            "Framer Motion",
+            "Framer Motion",, "JavaScript"
         ],
     },
     {
@@ -51,7 +51,7 @@ const projects = [
         project_url: "https://sultao-nu-movies.vercel.app/",
         description:
             "A simple app that allows users to view movies, read more about them, and watch trailers.",
-        tags: ["Vue JS", "TypeScript", "Nuxt JS", "Tailwind CSS"],
+        tags: ["Vue JS", "TypeScript", "Nuxt JS", "Tailwind CSS", "JavaScript"],
     },
     {
         title: "Movies App (Next JS)",
@@ -59,7 +59,7 @@ const projects = [
         project_url: "https://sultao-nxt-mov.vercel.app/",
         description:
             " A simple app that allows users to view movies, read more about them, and watch trailers.",
-        tags: ["React JS", "Tailwind", "TypeScript", "Next JS"],
+        tags: ["React JS", "Tailwind", "TypeScript", "Next JS", "JavaScript"],
     },
     {
         title: "Job Tracker",
@@ -67,7 +67,7 @@ const projects = [
         project_url: "https://job-tracker-vert.vercel.app/",
         description:
             "A simple app that allows users to track the number of jobs completed.",
-        tags: ["React JS", "Next JS", "FireBase", "TypeScript", "Shadcn UI"],
+        tags: ["React JS", "Next JS", "FireBase", "TypeScript", "Shadcn UI", "JavaScript"],
     },
     {
         title: "Todo App",

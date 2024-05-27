@@ -15,7 +15,7 @@ const Footer = () => {
   });
   const Icons = filteredSocials.map((social, index) => {
     return (
-      <Link href={social.link} key={index}>
+      <Link href={social.link} passHref key={index}>
         <a className="mr-3" target="_blank" title={social.name}>
           <Image src={social.image} width={25} height={25} alt={social.name} />
         </a>
@@ -27,9 +27,9 @@ const Footer = () => {
     <section data-aos="zoom-in-up" className="mt-8 ">
       <div className="max-w-[80%] mx-auto">
         <div className=" flex flex-col items-center py-8">
-          <Image src={logo} width={160} height={30} alt="mhbaando logo" />
+          <Image src={logo} width={160} height={30} alt="taofiq's logo" />
           <div className="my-4">{Icons}</div>
-          <p className="text-[0.7rem] font-bold">{`© ${yearNow} Copyright Allrights Reserved`}</p>
+          <p className="text-[0.7rem] font-bold">{`© ${yearNow} All Rights Reserved`}</p>
         </div>
       </div>
     </section>

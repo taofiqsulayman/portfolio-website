@@ -17,8 +17,8 @@ const NavBar = () => {
   const linksArray = [
     { name: "Home", address: "/" },
     { name: "About", address: "/#about" },
-    { name: "Projects", address: "/projects" },
-    { name: "Contact", address: "#contact" },
+    { name: "Projects", address: "/#projects" },
+    { name: "Contact", address: "/#contact" },
     // { name: "Blogs", address: "#blog" },
   ];
 
@@ -84,9 +84,18 @@ const NavBar = () => {
   });
 
   return (
-      <>
+      <div
+          style={{
+              position: "fixed",
+              top: 0,
+              width: "100%",
+              backdropFilter: "blur(10px)",
+          }}
+
+          className={`z-50`}
+      >
           <div
-              className={`flex items-center justify-between py-10 max-w-[90%] mx-auto`}
+              className={`flex items-center justify-between py-4 max-w-[90%] mx-auto`}
           >
               <motion.div
                   variants={imageVariant}
@@ -94,7 +103,9 @@ const NavBar = () => {
                   initial="hidden"
                   animate="visible"
               >
-                  <Image width={150} height={30} src={logo} />
+                <Link href='/'>
+                  <Image width={80} height={25} src={logo} />
+                </Link>
               </motion.div>
 
               <ul className={`hidden lmd:flex  items-center space-x-8`}>
@@ -122,7 +133,7 @@ const NavBar = () => {
                   <ResponsiveNav isOpen={isOpen} setIsOpen={setIsOpen} />
               </motion.ul>
           </div>
-      </>
+      </div>
   );
 };
 

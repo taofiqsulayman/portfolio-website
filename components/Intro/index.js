@@ -11,7 +11,7 @@ export default function Intro() {
     };
 
     return (
-        <div id="about" className=" mt-40 ">
+        <div id="about" className="min-h-[100vh] pt-32 lmd:pt-16">
             <div className="max-w-[80%] lmd:max-w-[80%] mx-auto">
                 <div className="  ">
                     <div>
@@ -29,7 +29,7 @@ export default function Intro() {
                     </div>
 
                     <div data-aos="zoom-in-up">
-                        <div className="mt-16 w-full">
+                        <div className="pt-16 w-full">
                             <div>
                                 <SubHeading title={"WHO AM I?"} />
                                 <Heading heading={"About me"} />

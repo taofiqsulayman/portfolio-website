@@ -1,12 +1,13 @@
 import React from "react";
 
-import { Footer, NavBar, Projects } from "../components";
+import { Projects } from "../components";
+import projects from "../data/projects";
 
 const Projectss = () => {
   return (
     <>
       <div className="max-w-[80%] mx-auto">
-        <Projects />
+        <Projects projects={projects} isHomePage={false}/>
       </div>
     </>
   );

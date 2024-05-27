@@ -7,8 +7,6 @@ const svgFiles = importAll(
     require.context("../../public/assets/techs", false, /\.svg$/)
 );
 
-console.log(svgFiles);
-
 const Techs = () => {
   return (
       <>

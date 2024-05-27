@@ -38,20 +38,20 @@ const projects = [
         ],
     },
     {
+        title: "Movies App (Vue JS)",
+        imageUrl: "/assets/screenshot/nuxtMoviesApp.png",
+        project_url: "https://sultao-nu-movies.vercel.app/",
+        description:
+        "A simple app that allows users to view movies, read more about them, and watch trailers.",
+        tags: ["Vue JS", "TypeScript", "Nuxt JS", "Tailwind CSS", "JavaScript"],
+    },
+    {
         title: "Fake Store",
         imageUrl: "/assets/screenshot/angularFakeStore.png",
         project_url: "https://sultao-angular-fake-store.vercel.app/",
         description:
             "A simple e-commerce app that allows users to view products, and read more about them.",
         tags: ["JavaScript", "Angular", "TypeScript", "SCSS"],
-    },
-    {
-        title: "Movies App (Vue JS)",
-        imageUrl: "/assets/screenshot/nuxtMoviesApp.png",
-        project_url: "https://sultao-nu-movies.vercel.app/",
-        description:
-            "A simple app that allows users to view movies, read more about them, and watch trailers.",
-        tags: ["Vue JS", "TypeScript", "Nuxt JS", "Tailwind CSS", "JavaScript"],
     },
     {
         title: "Movies App (Next JS)",

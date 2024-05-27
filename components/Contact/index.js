@@ -15,7 +15,7 @@ const Contacts = () => {
     };
 
     return (
-        <div id="contact" className="mt-40">
+        <div id="contact" className="pt-40">
             <section className="max-w-[80%] mx-auto" id="contacts">
                 <div className="lmd:flex lmd:justify-between">
                     <div className="lmd:max-w-[60%]">
@@ -29,17 +29,14 @@ const Contacts = () => {
                                 data-aos="fade-left"
                                 className="mt-6 max-w-[70%]"
                             >
-                                I am available for freelance work. Connect with me.
+                                I am available for freelance work. Connect with
+                                me.
                             </p>
                             <div
                                 data-aos="zoom-in-up"
                                 className="mt-6 block items-center justify-between"
                             >
-                                {info(
-                                    "Address",
-                                    "Location Icon",
-                                    "Nigeria"
-                                )}
+                                {info("Address", "Location Icon", "Nigeria")}
                                 {info(
                                     "Email",
                                     "Email Icon",
